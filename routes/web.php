@@ -30,13 +30,13 @@ Route::get('/property', function () {
 
 Route::get('/rent', function () {
     return view('rent');
-});
+})->name('rent');
 
 
 
 Route::get('/sale', function () {
     return view('sale');
-});
+})->name('sale');
 
 
 
