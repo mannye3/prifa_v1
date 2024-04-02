@@ -103,6 +103,10 @@
 
                                 </li>
 
+                                <li><a href="{{ route('about') }}">About</a>
+
+                                </li>
+
                                 <li><a href="{{ route('rent') }}">For Rent</a>
 
                                 </li>
@@ -111,9 +115,8 @@
 
                                 </li>
 
-                                <li><a href="#">Agents</a>
 
-                                </li>
+
 
 
 
