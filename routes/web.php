@@ -49,6 +49,8 @@ Route::get('/contact', function () {
 
 Route::get('/user-dashboard', [AgentController::class, 'index'])->name('userDashboard');
 Route::get('/add-property', [AgentController::class, 'createPoperty'])->name('addProperty');
+Route::get('/my-properties', [AgentController::class, 'myPoperty'])->name('myProperty');
+Route::get('/my-profile', [AgentController::class, 'myProfile'])->name('myProfile');
 
 
 Auth::routes();

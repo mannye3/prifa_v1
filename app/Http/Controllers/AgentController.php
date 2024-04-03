@@ -18,4 +18,19 @@ class AgentController extends Controller
     {
         return view('agent.create');
     }
+
+
+
+
+    public function myPoperty()
+    {
+        return view('agent.properties');
+    }
+
+
+
+    public function myProfile()
+    {
+        return view('agent.profile');
+    }
 }
