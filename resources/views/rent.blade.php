@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-md-12">
 
-                        <h2>Rent</h2>
+                        <h2>Property For Rent in Nigeria.</h2>
                         {{-- <span>Grid Layout With Sidebar</span> --}}
 
                         <!-- Breadcrumbs -->
@@ -30,7 +30,7 @@
 
 
     <!-- Content
-                                ================================================== -->
+                                    ================================================== -->
     <div class="container">
         <div class="row fullwidth-layout">
 

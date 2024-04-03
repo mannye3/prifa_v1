@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 
-<!-- Mirrored from www.vasterad.com/themes/findeo_updated/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Apr 2024 16:01:47 GMT -->
+
 
 <head>
 
     <!-- Basic Page Needs
 ================================================== -->
-    <title>Findeo</title>
+    <title>Real Estate and Property in Nigeria for Rent - Prifa.com.ng</title>
+    <meta name="description"
+        content="Prifa.com.ng is Nigerian real estate and property listing website with property and houses in Nigeria for rent and for sale. We are the online real estate destination for property sales and rentals in Nigeria with properties including homes, houses, land, shops, offices and other commercial properties to buy or rent." />
+    <meta property="og:type" content="website" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -331,9 +334,14 @@
                 });
             }
         </script>
+        {{-- 
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxkyVw9JMI0N6HBsjIKelYK337j81RNec&libraries=places">
+        </script> --}}
+
+
         <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g&amp;libraries=places&amp;callback=initAutocomplete">
-        </script>
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxkyVw9JMI0N6HBsjIKelYK337j81RNec&libraries=places&callback=initAutocomplete"
+            async defer></script>
 
 
 

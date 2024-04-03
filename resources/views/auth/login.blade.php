@@ -4,14 +4,15 @@
      <div class="body_content">
          <!-- Our Compare Area -->
          <section class="our-compare pt60 pb60">
-             <img src="images/icon/login-page-icon.svg" alt="" class="login-bg-icon wow fadeInLeft"
+             <img src="user/images/icon/login-page-icon.svg" alt="" class="login-bg-icon wow fadeInLeft"
                  data-wow-delay="300ms">
              <div class="container">
                  <div class="row wow fadeInRight" data-wow-delay="300ms">
                      <div class="col-lg-6">
                          <div class="log-reg-form signup-modal form-style1 bgc-white p50 p30-sm default-box-shadow2 bdrs12">
                              <div class="text-center mb40">
-                                 <img class="mb25" src="images/header-logo2.svg" alt="">
+                                 <a href="{{ route('welcome') }}"> <img class="mb25" src="user/images/header-logo2.svg"
+                                         alt=""></a>
                                  <h2>Sign in</h2>
                                  <p class="text">Sign in with this account across the following sites.</p>
                              </div>

@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-md-12">
 
-                        <h2>Sale</h2>
+                        <h2>Property For Sale in Nigeria.</h2>
                         {{-- <span>Grid Layout With Sidebar</span> --}}
 
                         <!-- Breadcrumbs -->

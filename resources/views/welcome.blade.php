@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Banner
-                                                                                                                                                                                ================================================== -->
+                                                                                                                                                                                            ================================================== -->
     <div class="parallax" data-background="{{ asset('images/place.jpg') }}" data-color="#36383e" data-color-opacity="0.45"
         data-img-width="2500" data-img-height="1600">
         <div class="parallax-content">
@@ -63,7 +63,7 @@
 
                                             <!-- Select Input -->
                                             <div class="select-input">
-                                                <input type="text" placeholder="Min Price" data-unit="USD">
+                                                <input type="text" placeholder="Min Price" data-unit="₦">
                                             </div>
                                             <!-- Select Input / End -->
 
@@ -75,7 +75,7 @@
 
                                             <!-- Select Input -->
                                             <div class="select-input">
-                                                <input type="text" placeholder="Max Price" data-unit="USD">
+                                                <input type="text" placeholder="Max Price" data-unit="₦">
                                             </div>
                                             <!-- Select Input / End -->
 
@@ -106,7 +106,7 @@
 
 
     <!-- Content
-                                                                                                                                                                                ================================================== -->
+                                                                                                                                                                                            ================================================== -->
     <!-- Fullwidth Section -->
     <section class="fullwidth border-bottom margin-top-0 margin-bottom-0 padding-top-50 padding-bottom-50"
         data-background-color="#ffffff">
@@ -120,12 +120,11 @@
                     <div class="icon-box-1 alternative">
 
                         <div class="icon-container">
-                            <i class="im im-icon-Checked-User"></i>
+                            <i class="fa fa-list"></i>
                         </div>
 
-                        <h3>Agent Finder</h3>
-                        <p>See who specializes in your area, has the most reviews and the right experience to meet your
-                            needs.</p>
+                        <h3>Free Listing</h3>
+                        <p>Easy listing process</p>
                     </div>
                 </div>
 
@@ -134,12 +133,11 @@
                     <div class="icon-box-1 alternative">
 
                         <div class="icon-container">
-                            <i class="im im-icon-Cloud-Computer"></i>
+                            <i class="fa fa-search"></i>
                         </div>
 
-                        <h3>Modern Technology</h3>
-                        <p>More than 10,000 customers buy or sell a home with us each year. We help people and homes find
-                            each together.</p>
+                        <h3>Safe Search</h3>
+                        <p>Search for your prefered properties</p>
                     </div>
                 </div>
 
@@ -148,12 +146,11 @@
                     <div class="icon-box-1 alternative">
 
                         <div class="icon-container">
-                            <i class="im im-icon-Idea"></i>
+                            <i class="fa fa-users"></i>
                         </div>
 
-                        <h3>Home Designs Ideas</h3>
-                        <p>Our specialists can help you get started on that home project. Find paint colors, that perfect
-                            tile and more. </p>
+                        <h3>Connect</h3>
+                        <p>Connect with Agents/Landlords</p>
                     </div>
                 </div>
 
@@ -161,7 +158,6 @@
         </div>
 
     </section>
-    <!-- Fullwidth Section / End -->
 
 
     <!-- Featured -->
@@ -169,7 +165,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <h3 class="headline margin-bottom-25 margin-top-65">Featured</h3>
+                <h3 class="headline margin-bottom-25 margin-top-65">Featured Properties</h3>
             </div>
 
             <!-- Carousel -->
@@ -377,8 +373,8 @@
                     <div class="logo-carousel dot-navigation">
 
                         <!-- <div class="item">
-          <img src="images/brand/1.png" alt="">
-         </div> -->
+                      <img src="images/brand/1.png" alt="">
+                     </div> -->
 
                         <div class="item">
                             <img src="images/brand/2.jpg" alt="">

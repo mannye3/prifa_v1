@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AgentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,29 +22,22 @@ Route::get('/search-result', function () {
     return view('search_result');
 });
 
-
 Route::get('/property', function () {
     return view('property');
 });
-
 
 
 Route::get('/rent', function () {
     return view('rent');
 })->name('rent');
 
-
-
 Route::get('/sale', function () {
     return view('sale');
 })->name('sale');
 
-
-
 Route::get('/about', function () {
     return view('about');
 })->name('about');
-
 
 
 Route::get('/contact', function () {
@@ -52,6 +46,9 @@ Route::get('/contact', function () {
 
 
 
+
+Route::get('/user-dashboard', [AgentController::class, 'index'])->name('userDashboard');
+Route::get('/add-property', [AgentController::class, 'createPoperty'])->name('addProperty');
 
 
 Auth::routes();

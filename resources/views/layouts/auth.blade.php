@@ -11,20 +11,20 @@
     <meta name="description" content="Homez - Real Estate HTML Template">
     <meta name="CreativeLayers" content="ATFN">
     <!-- css file -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/ace-responsive-menu.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="css/ud-custom-spacing.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="user/css/bootstrap.min.css">
+    <link rel="stylesheet" href="user/css/ace-responsive-menu.css">
+    <link rel="stylesheet" href="user/css/menu.css">
+    <link rel="stylesheet" href="user/css/fontawesome.css">
+    <link rel="stylesheet" href="user/css/flaticon.css">
+    <link rel="stylesheet" href="user/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="user/css/ud-custom-spacing.css">
+    <link rel="stylesheet" href="user/css/style.css">
+    <link rel="stylesheet" href="user/css/animate.css">
+    <link rel="stylesheet" href="user/css/jquery-ui.min.css">
     <!-- Responsive stylesheet -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="user/css/responsive.css">
     <!-- Title -->
-    <title>Homez - Real Estate HTML Template</title>
+    <title>Real Estate and Property in Nigeria for Rent - Prifa.com.ng</title>
     <!-- Favicon -->
     <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
     <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" />
@@ -44,14 +44,14 @@
 
 
         <!-- Wrapper End -->
-        <script src="js/jquery-3.6.4.min.js"></script>
-        <script src="js/jquery-migrate-3.0.0.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery-scrolltofixed-min.js"></script>
-        <script src="js/wow.min.js"></script>
+        <script src="user/js/jquery-3.6.4.min.js"></script>
+        <script src="user/js/jquery-migrate-3.0.0.min.js"></script>
+        <script src="user/js/popper.min.js"></script>
+        <script src="user/js/bootstrap.min.js"></script>
+        <script src="user/js/jquery-scrolltofixed-min.js"></script>
+        <script src="user/js/wow.min.js"></script>
         <!-- Custom script for all pages -->
-        <script src="js/script.js"></script>
+        <script src="user/js/script.js"></script>
 </body>
 
 
