@@ -1,64 +1,61 @@
  @extends('layouts.auth')
 
  @section('content')
-     <div class="body_content">
-         <!-- Our Compare Area -->
-         <section class="our-compare pt60 pb60">
-             <img src="user/images/icon/register-page-icon.svg" alt="" class="login-bg-icon wow fadeInLeft"
-                 data-wow-delay="300ms">
+
+     <body>
+         <div class="fix-wrapper">
              <div class="container">
-                 <div class="row wow fadeInRight" data-wow-delay="300ms">
-                     <div class="col-lg-6">
-                         <div class="log-reg-form signup-modal form-style1 bgc-white p50 p30-sm default-box-shadow2 bdrs12">
-                             <div class="text-center mb40">
-                                 <a href="{{ route('welcome') }}"><img class="mb25" src="user/images/header-logo2.svg"
-                                         alt=""></a>
-                                 <h2>Create account</h2>
+                 <div class="row justify-content-center">
+                     <div class="col-lg-5 col-md-6">
 
-                             </div>
-                             <div class="mb25">
-                                 <label class="form-label fw600 dark-color">Full Name</label>
-                                 <input type="text" class="form-control" placeholder="Enter Full Name">
-                             </div>
+                         <div class="card mb-0 h-auto">
 
-                             <div class="mb25">
-                                 <label class="form-label fw600 dark-color">Email</label>
-                                 <input type="email" class="form-control" placeholder="Enter Email">
+
+                             <div class="card-body">
+                                 <div class="text-center mb-3">
+                                     <a href="{{ route('welcome') }}"><img class="logo-auth"
+                                             src="{{ asset('user/images/logo-full.png') }}" alt=""></a>
+                                 </div>
+                                 <h4 class="text-center mb-4">Sign up your account</h4>
+                                 <form action="https://omah.dexignzone.com/xhtml/index.html">
+                                     <div class="form-group mb-4">
+                                         <label class="form-label" for="username">Username</label>
+                                         <input type="text" class="form-control" placeholder="Enter username"
+                                             id="username">
+                                     </div>
+                                     <div class="form-group mb-4">
+                                         <label class="form-label" for="email">Email</label>
+                                         <input type="email" class="form-control" placeholder="hello@example.com"
+                                             id="email">
+                                     </div>
+                                     <div class="form-group mb-sm-4 mb-3">
+                                         <label class="form-label">Password</label>
+                                         <div class="position-relative">
+                                             <input type="password" id="dz-password" class="form-control" value="123456">
+                                             <span class="show-pass eye">
+                                                 <i class="fa fa-eye-slash"></i>
+                                                 <i class="fa fa-eye"></i>
+                                             </span>
+                                         </div>
+                                     </div>
+
+                                     <div class="text-center">
+                                         <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+
+                                     </div>
+                                 </form>
+                                 <div class="new-account mt-3">
+                                     <p>Already have an account? <a class="text-primary" href="{{ route('login') }}">Sign
+                                             in</a>
+                                     </p>
+                                 </div>
                              </div>
-                             <div class="mb15">
-                                 <label class="form-label fw600 dark-color">Password</label>
-                                 <input type="text" class="form-control" placeholder="Enter Password">
-                             </div>
-                             <div class="d-grid mb20">
-                                 <button class="ud-btn btn-thm" type="button">Sign Up <i
-                                         class="fal fa-arrow-right-long"></i></button>
-                             </div>
-                             {{-- <div class="hr_content mb20">
-                                 <hr><span class="hr_top_text">OR</span>
-                             </div>
-                             <div class="d-grid mb10">
-                                 <button class="ud-btn btn-white fw400" type="button"><i class="fab fa-google"></i>
-                                     Continue Google</button>
-                             </div>
-                             <div class="d-grid mb10">
-                                 <button class="ud-btn btn-fb fw400" type="button"><i class="fab fa-facebook-f"></i>
-                                     Continue Facebook</button>
-                             </div>
-                             <div class="d-grid mb20">
-                                 <button class="ud-btn btn-apple fw400" type="button"><i class="fab fa-apple"></i>
-                                     Continue Apple</button>
-                             </div> --}}
-                             <p class="dark-color text-center mb0 mt10">Not signed up? <a class="dark-color fw600"
-                                     href="page-register.html">Create an account.</a></p>
                          </div>
                      </div>
                  </div>
              </div>
-         </section>
-         <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
-     </div>
-     </div>
- @endsection
+         </div>
+     @endsection
 
 
 
@@ -94,7 +91,7 @@
 
 
 
- {{-- @extends('layouts.app')
+     {{-- @extends('layouts.app')
 
 @section('content')
 <div class="container">

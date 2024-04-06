@@ -1,188 +1,67 @@
 @extends('layouts.master_agent')
 
 @section('content')
-    <div class="row align-items-center pb40">
-        <div class="col-lg-12">
-            <div class="dashboard_title_area">
-                <h2>My Properties</h2>
-                <p class="text">We are glad to see you again!</p>
-            </div>
-        </div>
-    </div>
+    <div class="content-body">
+        <div class="container-fluid">
+
+            <!-- row -->
+            <div class="row">
 
 
-    <div class="row">
-        <div class="col-xl-12">
-            <div class="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <div class="packages_table table-responsive">
-                    <table class="table-style3 table at-savesearch">
-                        <thead class="t-head">
-                            <tr>
-                                <th scope="col">Listing title</th>
-                                <th scope="col">Date Published</th>
-                                <th scope="col">Status</th>
-                                <th scope="col">View</th>
-                                <th scope="col">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody class="t-body">
-                            <tr>
-                                <th scope="row">
-                                    <div class="listing-style1 dashboard-style d-xxl-flex align-items-center mb-0">
-                                        <div class="list-thumb">
-                                            <img class="w-100" src="user/images/listings/list-1.jpg" alt="">
-                                        </div>
-                                        <div class="list-content py-0 p-0 mt-2 mt-xxl-0 ps-xxl-4">
-                                            <div class="h6 list-title"><a href="page-property-single-v1.html">Equestrian
-                                                    Family Home</a></div>
-                                            <p class="list-text mb-0">California City, CA, USA</p>
-                                            <div class="list-price"><a href="#">$14,000/<span>mo</span></a></div>
-                                        </div>
-                                    </div>
-                                </th>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam"><span class="pending-style style1">Pending</span></td>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam">
-                                    <div class="d-flex">
-                                        <a href="#" class="icon" data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="Edit"><span class="fas fa-pen fa"></span></a>
-                                        <a href="#" class="icon" data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="Delete"><span class="flaticon-bin"></span></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">
-                                    <div class="listing-style1 dashboard-style d-xxl-flex align-items-center mb-0">
-                                        <div class="list-thumb">
-                                            <img class="w-100" src="user/images/listings/list-2.jpg" alt="">
-                                        </div>
-                                        <div class="list-content py-0 p-0 mt-2 mt-xxl-0 ps-xxl-4">
-                                            <div class="h6 list-title"><a href="page-property-single-v1.html">Luxury villa
-                                                    in Rego Park</a></div>
-                                            <p class="list-text mb-0">California City, CA, USA</p>
-                                            <div class="list-price"><a href="#">$14,000/<span>mo</span></a></div>
-                                        </div>
-                                    </div>
-                                </th>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam"><span class="pending-style style2">Published</span></td>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam">
-                                    <div class="d-flex">
-                                        <a href="#" class="icon" data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="Edit"><span class="fas fa-pen fa"></span></a>
-                                        <a href="#" class="icon" data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="Delete"><span class="flaticon-bin"></span></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th class="active">
-                                    <div class="listing-style1 dashboard-style d-xxl-flex align-items-center mb-0">
-                                        <div class="list-thumb">
-                                            <img class="w-100" src="user/images/listings/list-3.jpg" alt="">
-                                        </div>
-                                        <div class="list-content py-0 p-0 mt-2 mt-xxl-0 ps-xxl-4">
-                                            <div class="h6 list-title"><a href="page-property-single-v1.html">Villa on
-                                                    Hollywood Boulevard</a></div>
-                                            <p class="list-text mb-0">California City, CA, USA</p>
-                                            <div class="list-price"><a href="#">$14,000/<span>mo</span></a></div>
-                                        </div>
-                                    </div>
-                                </th>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam"><span class="pending-style style3">Processing</span></td>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam">
-                                    <div class="d-flex">
-                                        <a href="#" class="icon" data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="Edit"><span class="fas fa-pen fa"></span></a>
-                                        <a href="#" class="icon" data-bs-toggle="tooltip"
-                                            data-bs-placement="top" title="Delete"><span class="flaticon-bin"></span></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">
-                                    <div class="listing-style1 dashboard-style d-xxl-flex align-items-center mb-0">
-                                        <div class="list-thumb">
-                                            <img class="w-100" src="user/images/listings/list-4.jpg" alt="">
-                                        </div>
-                                        <div class="list-content py-0 p-0 mt-2 mt-xxl-0 ps-xxl-4">
-                                            <div class="h6 list-title"><a href="page-property-single-v1.html">Triple Story
-                                                    House for Rent</a></div>
-                                            <p class="list-text mb-0">California City, CA, USA</p>
-                                            <div class="list-price"><a href="#">$14,000/<span>mo</span></a></div>
-                                        </div>
-                                    </div>
-                                </th>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam"><span class="pending-style style2">Published</span></td>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam">
-                                    <div class="d-flex">
-                                        <a href="#" class="icon" data-bs-toggle="tooltip"
-                                            data-bs-placement="top" title="Edit"><span
-                                                class="fas fa-pen fa"></span></a>
-                                        <a href="#" class="icon" data-bs-toggle="tooltip"
-                                            data-bs-placement="top" title="Delete"><span class="flaticon-bin"></span></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">
-                                    <div class="listing-style1 dashboard-style d-xxl-flex align-items-center mb-0">
-                                        <div class="list-thumb">
-                                            <img class="w-100" src="user/images/listings/list-5.jpg" alt="">
-                                        </div>
-                                        <div class="list-content py-0 p-0 mt-2 mt-xxl-0 ps-xxl-4">
-                                            <div class="h6 list-title"><a href="page-property-single-v1.html">Northwest
-                                                    Office Space</a></div>
-                                            <p class="list-text mb-0">California City, CA, USA</p>
-                                            <div class="list-price"><a href="#">$14,000/<span>mo</span></a></div>
-                                        </div>
-                                    </div>
-                                </th>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam"><span class="pending-style style1">Pending</span></td>
-                                <td class="vam">December 31, 2022</td>
-                                <td class="vam">
-                                    <div class="d-flex">
-                                        <a href="#" class="icon" data-bs-toggle="tooltip"
-                                            data-bs-placement="top" title="Edit"><span
-                                                class="fas fa-pen fa"></span></a>
-                                        <a href="#" class="icon" data-bs-toggle="tooltip"
-                                            data-bs-placement="top" title="Delete"><span class="flaticon-bin"></span></a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="mbp_pagination text-center mt30">
-                        <ul class="page_navigation">
-                            <li class="page-item">
-                                <a class="page-link" href="#"> <span class="fas fa-angle-left"></span></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active" aria-current="page">
-                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                            <li class="page-item"><a class="page-link" href="#">5</a></li>
-                            <li class="page-item"><a class="page-link" href="#">...</a></li>
-                            <li class="page-item"><a class="page-link" href="#">20</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#"><span class="fas fa-angle-right"></span></a>
-                            </li>
-                        </ul>
-                        <p class="mt10 pagination_page_count text-center">1 – 20 of 300+ property available</p>
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Properties</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="example3" class="display" style="min-width: 850px">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Title</th>
+                                            <th>Type</th>
+                                            <th>Price</th>
+                                            <th>Location</th>
+                                            <th>bedroom</th>
+                                            <th>Bathroom</th>
+                                            <th>Date Posted</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><img class="rounded-circle" width="35"
+                                                    src="user/images/profile/small/pic1.jpg" alt="/"></td>
+                                            <td>Tiger Nixon</td>
+                                            <td>Architect</td>
+                                            <td>Male</td>
+                                            <td>M.COM., P.H.D.</td>
+                                            <td><a href="javascript:void(0);"><strong class="text-black">123 456
+                                                        7890</strong></a></td>
+                                            <td><a href="javascript:void(0);"><strong
+                                                        class="text-black">info@example.com</strong></a></td>
+                                            <td>2011/04/25</td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);"
+                                                        class="btn btn-primary shadow btn-xs sharp me-1"><i
+                                                            class="fa fa-pencil"></i></a>
+                                                    <a href="javascript:void(0);"
+                                                        class="btn btn-danger shadow btn-xs sharp"><i
+                                                            class="fa fa-trash"></i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </div>
     </div>
 @endsection
