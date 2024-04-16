@@ -17,21 +17,23 @@
                                              src="{{ asset('user/images/logo-full.png') }}" alt=""></a>
                                  </div>
                                  <h4 class="text-center mb-4">Sign up your account</h4>
-                                 <form action="https://omah.dexignzone.com/xhtml/index.html">
+                                 <form action="{{ route('Usereg') }}" method="POST">
+                                     @csrf
                                      <div class="form-group mb-4">
-                                         <label class="form-label" for="username">Username</label>
-                                         <input type="text" class="form-control" placeholder="Enter username"
-                                             id="username">
+                                         <label class="form-label" for="username">Full Name</label>
+                                         <input type="text" name="name" class="form-control"
+                                             placeholder="Enter username" id="username">
                                      </div>
                                      <div class="form-group mb-4">
                                          <label class="form-label" for="email">Email</label>
-                                         <input type="email" class="form-control" placeholder="hello@example.com"
-                                             id="email">
+                                         <input type="email" name="email" class="form-control"
+                                             placeholder="hello@example.com" id="email">
                                      </div>
                                      <div class="form-group mb-sm-4 mb-3">
                                          <label class="form-label">Password</label>
                                          <div class="position-relative">
-                                             <input type="password" id="dz-password" class="form-control" value="123456">
+                                             <input name="password" type="password" id="dz-password" class="form-control"
+                                                 value="123456">
                                              <span class="show-pass eye">
                                                  <i class="fa fa-eye-slash"></i>
                                                  <i class="fa fa-eye"></i>

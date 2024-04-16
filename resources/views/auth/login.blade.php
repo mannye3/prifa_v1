@@ -14,9 +14,9 @@
                                                  src="{{ asset('user/images/logo-full.png') }}" alt=""></a>
                                      </div>
                                      <h4 class="text-center mb-4">Sign in your account</h4>
-                                     <form action="https://omah.dexignzone.com/xhtml/index.html">
+                                     <form action="">
                                          <div class="form-group mb-4">
-                                             <label class="form-label" for="username">Username</label>
+                                             <label class="form-label" for="username">Full Name</label>
                                              <input type="text" class="form-control" placeholder="Enter username"
                                                  id="username">
                                          </div>

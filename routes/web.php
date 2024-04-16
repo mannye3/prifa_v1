@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\AgentController;
 
 /*
@@ -56,3 +57,12 @@ Route::get('/my-profile', [AgentController::class, 'myProfile'])->name('myProfil
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+
+//AUTHENTICATION
+Route::post('/login', [AuthController::class, 'inlogin'])->name('Adminlogin');
+Route::post('/register', [AuthController::class, 'register'])->name('Usereg');
+// Route::post('/fogertpassword', [AuthController::class, 'adminforgetpassword'])->name('Adminforgetpassword');
+// Route::get('/reset-password/{token}', [AuthController::class, 'adminresetpassword']);
+// Route::post('reset-password', [AuthController::class, 'adminresetpasswordsubmit'])->name('Adminresetpasswordsubmit');
